@@ -1,0 +1,95 @@
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+    margin-bottom: 12px;
+}
+
+.card-header {
+    background-color: #0f3460;
+    color: #e94560;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+.card-body {
+    padding: 10px 12px;
+}
+
+#scene-container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    min-height: 600px;
+    background-color: #1a1a2e;
+    border: 1px solid #0f3460;
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: #0f3460;
+    padding: 8px 16px;
+}
+
+.navbar-brand {
+    color: #e94560;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-control, .form-select {
+    background-color: #1a1a2e;
+    border-color: #0f3460;
+    color: #e0e0e0;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #1a1a2e;
+    border-color: #e94560;
+    color: #e0e0e0;
+    box-shadow: 0 0 0 0.2rem rgba(233, 69, 96, 0.25);
+}
+
+.btn {
+    margin: 2px;
+    font-size: 13px;
+}
+
+.form-label {
+    font-size: 12px;
+    color: #a0a0a0;
+    margin-bottom: 2px;
+}
+
+.status-text {
+    font-family: 'Consolas', monospace;
+    font-size: 13px;
+    color: #4fc3f7;
+    padding: 4px 0;
+}
+
+.rc-slider-track {
+    background-color: #e94560;
+}
+
+.rc-slider-handle {
+    border-color: #e94560;
+}
+
+.Upload {
+    border: 2px dashed #0f3460;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+.Upload:hover {
+    border-color: #e94560;
+}
